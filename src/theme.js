@@ -6,13 +6,13 @@ const theme = createTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#7441F3",
+      main: "#4e24f2",
     },
     secondary: {
-      main: "#E150A6",
+      main: "#24F25E",
     },
     warning: {
-      main: "#EB675C",
+      main: "#FFC120",
     },
     info: {
       main: "#21f396",
@@ -24,19 +24,19 @@ const theme = createTheme({
       main: "#ff4b2f",
     },
     background: {
-      default: "#FFFFFF",
-      paper: "#FFFFFF",
+      default: "#0C0C14",
+      paper: "#181828",
     },
     divider: "#222237",
     text: {
-      primary: "#181C24",
-      secondary: "#FFFFFF",
+      primary: "#FFFFFF",
+      secondary: "#E1E1FC",
       disabled: "#8d8da8",
       hint: "#E1E1FC",
     },
   },
   shape: {
-    borderRadius: 15,
+    borderRadius: 25,
   },
   components: {
     MuiButton: {
@@ -60,7 +60,7 @@ const theme = createTheme({
     MuiFilledInput: {
       styleOverrides: {
         root: {
-          backgroundColor: "#F8F8F8",
+          backgroundColor: "#0C0C14",
         },
       },
     },
@@ -74,32 +74,32 @@ const theme = createTheme({
     MuiSelect: {
       styleOverrides: {
         filled: {
-          backgroundColor: "##7441F3",
+          backgroundColor: "#181828",
         },
         outlined: {
-          backgroundColor: "##7441F3",
-          borderColor: "##7441F3",
+          backgroundColor: "#181828",
+          borderColor: "#181828",
         },
       },
     },
   },
   typography: {
-    fontFamily: '"Roboto", sans-serif',
+    fontFamily: '"Montserrat", "Helvetica", "Arial", sans-serif',
 
     h1: {
-      fontSize: "3.75rem",
-      fontWeight: 900,
+      fontSize: "3.7rem",
+      fontWeight: 1000,
     },
     h2: {
       fontSize: "3rem",
-      fontWeight: 900,
+      fontWeight: 1000,
     },
     h3: {
-      fontSize: "1.75rem",
+      fontSize: "1.7rem",
       fontWeight: 700,
     },
     h4: {
-      fontSize: "1.375rem",
+      fontSize: "1.3rem",
       fontWeight: 700,
     },
     h5: {

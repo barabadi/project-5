@@ -1,4 +1,4 @@
-![banner.png](https://boomcdn.fra1.digitaloceanspaces.com/b4f29b16515bb75bf620bcd78aa6e161.jpg)
+![banner.png](https://boomcdn.fra1.digitaloceanspaces.com/eb1541cf817d1c7ba6d621bbfdad316a.png)
 
 ## 🤔 How to use
 
